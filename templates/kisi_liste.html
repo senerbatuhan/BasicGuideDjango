@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-between">
+    {% for guide in object_list %}
+    <div class = "list-group-item list-group-item-action align-items-center d-flex">
+      <h1><a href="{% url 'guide:numara_detay' pk=guide.pk %}">
+        {{ guide.isim }}  {{ guide.soyisim }}</a>
+      </h1>
+        <p>{{ guide.numara }}</p>
+    </div>
+    {% endfor %}
+</div>   
+{% endblock %}

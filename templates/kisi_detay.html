@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class = "row justify-content-between">
+  <h1>{{ numaralar.isim }}  {{ numaralar.soyisim }}</h1>
+  <p>{{ numaralar.numara }}</p>
+  <a class="btn btn-warning" href="{% url 'guide:numara_guncelle' pk=numaralar.pk %}">
+    <span class="glyphicon glyphicon-pencil"></span>
+  </a>
+  <a class="btn btn-danger" href="{% url 'guide:numara_sil' pk=numaralar.pk %}">
+    <span class="glyphicon glyphicon-trash"></span>
+  </a>
+</div>
+{% endblock %}

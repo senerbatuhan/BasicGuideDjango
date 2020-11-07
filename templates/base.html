@@ -1,0 +1,29 @@
+{% load static %}
+
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/guide.css' %}">
+    <title>Rehber</title>
+</head>
+<body>
+    <div style = "margin-top : 50px; margin-bottom:50px;" class = "container">
+        <div class="jumbotron text-center">
+            <h1><a href="/">Telefon Rehberi</a></h1>
+        </div>
+        <div style = "margin-top : 10px; margin-bottom:10px;" class = "container text-center">
+            <a href="{% url 'guide:numara_olustur' %}"><button type="button" class="btn btn-primary glyphicon glyphicon-plus">Kişi Ekle</button></a>
+        </div>
+
+        <div class="jumbotron text-left">
+        {% block content %}
+        
+        {% endblock %}
+        </div>
+    </div>
+</body>
+</html>
