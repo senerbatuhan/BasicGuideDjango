@@ -1,13 +1,12 @@
 # BasicGuideDjango
 Basic Guide with Django
 
-python manage.py makemigrations
+1) Create migrations for those changes
+	"""python manage.py makemigrations"""
 
-	"""create migrations for those changes"""
-python manage.py migrate
+2) Apply those changes to the database
+	"""python manage.py migrate"""
 
-	"""apply those changes to the database"""
-python manage.py runserver
-
-	"""start project"""
+3) Start project
+	"""python manage.py runserver"""
 	
