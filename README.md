@@ -1,5 +1,5 @@
 # BasicGuideDjango
-Basic Guide with Django
+Basic Guide with Python Django Framework
 
 1) Create migrations for those changes
 
