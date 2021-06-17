@@ -1,7 +1,10 @@
 # BasicGuideDjango
-Basic Guide with Python Django Framework
+<p>Basic Guide with Python Django Framework</p>
+<hr>
+<br/>
 username: admin
 password: boss1234
+<br/>
 1) Create migrations for those changes
 
 		python manage.py makemigrations
@@ -12,7 +15,12 @@ password: boss1234
 3) Start project
 	
 		python manage.py runserver
-	
+
+
+<br/>
+<img src="static/Photos/index.jpg">
+
+
 <br/>
 <hr>
 <br/>
