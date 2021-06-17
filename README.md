@@ -4,8 +4,8 @@
 <br/>
 <p>username: admin</p>
 <p>password: boss1234</p>
-<br/>
 <hr>
+
 1) Create migrations for those changes
 
 		python manage.py makemigrations
