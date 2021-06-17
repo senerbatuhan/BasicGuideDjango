@@ -2,9 +2,10 @@
 <p>Basic Guide with Python Django Framework</p>
 <hr>
 <br/>
-username: admin
-password: boss1234
+<p>username: admin</p>
+<p>password: boss1234</p>
 <br/>
+<hr>
 1) Create migrations for those changes
 
 		python manage.py makemigrations
@@ -18,9 +19,16 @@ password: boss1234
 
 
 <br/>
-<img src="static/Photos/index.jpg">
-
-
+<table style="width:100%">
+  <tr>
+    <td><img src="static/Photos/index.jpg" width="100%"></td>
+    <td><img src="static/Photos/olustur.jpg" width="100%"></td> 
+  </tr>
+  <tr>
+    <td><img src="static/Photos/id.jpg" width="100%"></td>
+    <td><img src="static/Photos/admin-guide.jpg" width="100%"></td> 
+  </tr>
+</table> 
 <br/>
 <hr>
 <br/>
