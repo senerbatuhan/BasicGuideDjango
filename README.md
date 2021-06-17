@@ -1,6 +1,7 @@
 # BasicGuideDjango
 Basic Guide with Python Django Framework
-
+username: admin
+password: boss1234
 1) Create migrations for those changes
 
 		python manage.py makemigrations
