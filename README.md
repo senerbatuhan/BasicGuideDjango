@@ -1,7 +1,6 @@
 # BasicGuideDjango
 <p>Basic Guide with Python Django Framework</p>
 <hr>
-<br/>
 <p>username: admin</p>
 <p>password: boss1234</p>
 <hr>
